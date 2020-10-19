@@ -12,7 +12,7 @@ function execute(db) {
             images TEXT,
             instructions TEXT,
             opening_hours TEXT,
-            open_on_weedkends TEXT
+            open_on_weekends TEXT
         );
     `)
 }
