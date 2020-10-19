@@ -19,14 +19,14 @@ Database.then(async (db) => {
       "Venha quando se sentir a vontade e traga muito amor e paciência para dar.",
     opening_hours: "Horário de visitas Das 18h até 8h",
     open_on_weekends: "0",
-  })
+  });
   // consultar dados da tabela
   const selectedOrphanages = await db.all("SELECT * FROM orphanages");
   console.log(selectedOrphanages);
 
   // consultar somente 1 orfanato, pelo id
-  const orphanage = await db.all('SELECT * FROM orphanages WHERE id = "3"')
-  console.log(orphanage)
+  const orphanage = await db.all('SELECT * FROM orphanages WHERE id = "3"');
+  console.log(orphanage);
 
   // deletar dado da tabela
   // console.log(await db.run("DELETE FROM orphanages WHERE id ='4'"))
