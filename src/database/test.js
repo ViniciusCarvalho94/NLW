@@ -15,7 +15,7 @@ Database.then(async (db) => {
 
       "https://images.unsplash.com/photo-1600712244180-7ef5e5c82cb5?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9",
     ].toString(),
-    instuctions:
+    instructions:
       "Venha quando se sentir a vontade e traga muito amor e paciência para dar.",
     opening_hours: "Horário de visitas Das 18h até 8h",
     open_on_weekends: "0",
